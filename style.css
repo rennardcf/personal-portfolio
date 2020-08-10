@@ -62,12 +62,36 @@
   letter-spacing: 2px;
 }
 
+.title-padding {
+  margin-bottom: 50px;
+}
+
+/*divider*/
+
+.divider-color {
+  border-top: 1px solid #f8f8f8;
+  width: 750px;
+}
+
+/*About*/
+
+#self-photo {
+  height: auto;
+  width: 100%;
+}
+
+.about-me-text {
+  text-align:center;
+  margin-top: 200px;
+  color: #FFFFFF;
+}
+
 /*Portfolio*/
 
 .portfolio-image {
   max-width: 100%;
   height: auto;
-  margin: 15px 15px;
+  margin-bottom: 15px;
   opacity: 1;
   display: block;
   transition: .5s ease;
